@@ -1,0 +1,3 @@
+const REACT_APP_API_KEY = "c55966b585eef00548a133da3d72c95f";
+
+export default REACT_APP_API_KEY;
