@@ -152,7 +152,7 @@ export default function TransitionsModal({ children, media_type, id }) {
                     startIcon={<LocalFloristIcon />}
                     color="primary"
                     target="__blank"
-                    href={`https://www.youtube.com/watch?v=RsBbnuy1KcE`}
+                    href={`https://www.youtube.com/shorts/M24cIii8n2Q`}
                   >
                     Tap if your name is Alankita Gupta
                   </Button>
