@@ -12,6 +12,7 @@ import {
 import "./ContentModal.css";
 import { Button } from "@material-ui/core";
 import YouTubeIcon from "@material-ui/icons/YouTube";
+import LocalFloristIcon from "@material-ui/icons/LocalFlorist";
 import Carousel from "../Carousel/Carousel";
 import REACT_APP_API_KEY from "../../api.js";
 
@@ -144,6 +145,16 @@ export default function TransitionsModal({ children, media_type, id }) {
                     href={`https://www.youtube.com/watch?v=${video}`}
                   >
                     Watch the Trailer
+                  </Button>
+
+                  <Button
+                    variant="contained"
+                    startIcon={<LocalFloristIcon />}
+                    color="primary"
+                    target="__blank"
+                    href={`https://www.youtube.com/watch?v=RsBbnuy1KcE`}
+                  >
+                    Tap if your name is Alankita Gupta
                   </Button>
                 </div>
               </div>
